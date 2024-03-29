@@ -55,7 +55,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃❃│ Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())} 
 ┃❃│ Uptime : ${runtime(process.uptime())} 
 ┃❃╰───────────────
-╰─────✧TVLINK: https://wa.link/cwrw43✧─────◆ \n\n`;
+╰─────✧TVLINK: https://wa.link/cwrw43 ✧─────◆ \n\n`;
 
   let menuMsg=`  
 
@@ -77,7 +77,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌Richie's Circle | https://wa.link/cwrw43®🐐²0²⁴*                                         
+  *📌Richie's Circle | https://wa.link/cwrw43 ®🐐²0²⁴*                                         
 *╰═════════════⊷*
 `;
 
