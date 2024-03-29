@@ -135,7 +135,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking┗━━━┓
+┏━━━┛ RICHIE-MD Ranking┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -211,7 +211,7 @@ france( {
     
     
          let msg = `
-┏━━━┛ FLASH-MD Ranking ┗━━━┓
+┏━━━┛ RICHIE-MD Ranking ┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
