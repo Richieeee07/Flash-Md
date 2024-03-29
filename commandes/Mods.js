@@ -87,7 +87,7 @@ fs.unlinkSync(medis)
         type = 'not animated sticker'
       }
 
-      let msg = `   Flash-stickers-dl
+      let msg = `   Richiee-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -110,7 +110,7 @@ fs.unlinkSync(medis)
 
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "FLASH-MD",
+            author: "RICHIE-MD",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -242,7 +242,7 @@ france({ nomCom: "unblock", categorie: "OWNER" }, async (dest, zk, commandeOptio
               } else {
                 jid = auteurMsgRepondu
              await zk.updateBlockStatus(jid, "unblock")
-    .then( repondre('succes'))   } ;
+    .then( repondre('success'))   } ;
 
     });
 
@@ -527,7 +527,7 @@ france({ nomCom: "save", categorie: "OWNER" }, async (dest, zk, commandeOptions)
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
           let stickerMess = new Sticker(media, {
-            pack: 'FLASH-MD',
+            pack: 'RICHIE-MD',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
