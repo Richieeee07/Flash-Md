@@ -43,7 +43,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐅𝐋𝐀𝐒𝐇-𝐌𝐃✧────◆
+╭────✧RICHIE-𝐌𝐃✧────◆
 ┃❃╭──────────────
 ┃❃│ Prefix : ${s.PREFIXE} 
 ┃❃│ User :  ${s.OWNER_NAME}
@@ -55,11 +55,11 @@ const date = moment().format('DD/MM/YYYY');
 ┃❃│ Ram : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())} 
 ┃❃│ Uptime : ${runtime(process.uptime())} 
 ┃❃╰───────────────
-╰─────✧The-GOAT✧─────◆ \n\n`;
+╰─────✧TVLINK: https://wa.link/cwrw43✧─────◆ \n\n`;
 
   let menuMsg=`  
 
-*FLASH-MD COMMANDS :*
+*RICHIE-MD COMMANDS :*
 ◇                             ◇
 `;
 
@@ -77,7 +77,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌France King®🐐²0²⁴*                                         
+  *📌Richie's Circle | https://wa.link/cwrw43®🐐²0²⁴*                                         
 *╰═════════════⊷*
 `;
 
@@ -95,7 +95,7 @@ const date = moment().format('DD/MM/YYYY');
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌France King*" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "*📌Richiee*" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
